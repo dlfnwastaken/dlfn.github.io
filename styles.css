@@ -165,7 +165,7 @@ footer {
     }
 
     .mon-nom{
-        text-size-adjust: 0.5;
+        size: 1;
     }
     
     header{
