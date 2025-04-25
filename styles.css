@@ -7,8 +7,8 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background: #f4f4f4;
-    color: #333;
+    background: #e7d6a3;
+    color: #000000;
     padding-top: 80px;
     transition: all 0.5s;
 }
@@ -22,8 +22,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #333;
-    color: white;
+    background: #b89d65;
+    color: rgb(0, 0, 0);
     padding: 20px;
 }
 
@@ -37,7 +37,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
@@ -46,7 +46,7 @@ nav ul li a {
     align-items: center;
     justify-content: center;
     padding: 50px;
-    background: white;
+    background: rgb(255, 240, 190);
 }
 
 #about img {
@@ -64,7 +64,7 @@ nav ul li a {
 }
 
 .project {
-    background: white;
+    background: rgb(255, 231, 165);
     padding: 20px;
     text-align: center;
     border-radius: 10px;
@@ -74,11 +74,11 @@ nav ul li a {
 
 .project:hover {
     transform: scale(1.05);
-    background: #e0e0e0;
+    background: #facf71;
 }
 
 .skill {
-    background: white;
+    background: rgb(255, 238, 191);
     padding: 20px;
     text-align: center;
     border-radius: 10px;
@@ -88,7 +88,7 @@ nav ul li a {
 
 .skill:hover {
     transform: scale(1.05);
-    background: #e0e0e0;
+    background: #facf71;
 }
 
 #contact form {
@@ -108,8 +108,8 @@ nav ul li a {
 footer {
     text-align: center;
     padding: 20px;
-    background: #333;
-    color: white;
+    background: #b89d65;
+    color: rgb(0, 0, 0);
     margin-top: 20px;
     text-decoration: none;
     list-style: none;
@@ -140,6 +140,15 @@ footer {
     transition: transform 0.3s ease-in-out;
 }
 
+.text{
+    background-color: #fdf0c4;
+}
+.email{
+    background-color: #fdf0c4;
+}
+.votre_message{
+    background-color: #fdf0c4;
+}
 
 @media (max-width: 768px) {
     #about{
