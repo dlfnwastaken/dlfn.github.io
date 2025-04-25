@@ -164,6 +164,10 @@ footer {
         grid-template-columns: repeat(auto-fit, minmax(200px, lfr));
     }
 
+    .mon-nom{
+        text-size-adjust: 3;
+    }
+    
     header{
         position: fixed;
         width: 100%;
